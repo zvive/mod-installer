@@ -1,0 +1,25 @@
+{
+    "name": "patrickcurl/mod-installer",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PatrickCurl\\ModInstaller\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "PatrickCurl\\ModInstaller\\ModInstallerPlugin"
+    },
+    "require-dev": {
+        "composer/composer": "^1.3",
+        "mockery/mockery": "~1.0",
+        "phpunit/phpunit": "~6.0"
+    },
+    "require": {
+        "composer-plugin-api": "^1.1",
+        "php": "^5.4|7.*",
+        "laravel/framework": "^5.8",
+        "vlucas/phpdotenv": "^3.4",
+        "symfony/finder": "^4.3"
+    }
+}
